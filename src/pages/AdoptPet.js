@@ -18,7 +18,7 @@ const AdoptPet = () => {
     setFormData({ ...formData, pet_type: petType });
   }, [petType]);
   const handleChangePet = (e) => {
-    setPetType(e.target.value);
+    setPetType(e.target.value)
   };
   const handleChangeBreed = (e) => {
     setPetBreed(e.target.value);
